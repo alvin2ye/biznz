@@ -1,6 +1,9 @@
-import { test, moduleFor } from 'ember-qunit';
+import {
+  moduleFor,
+  test
+} from 'ember-qunit';
 
-moduleFor('route:contacts/index', 'Contacts/indexRoute', {
+moduleFor('route:contacts/index', 'ContactsIndexRoute', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

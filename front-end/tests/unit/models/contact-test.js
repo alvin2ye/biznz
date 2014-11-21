@@ -1,4 +1,7 @@
-import { test, moduleForModel } from 'ember-qunit';
+import {
+  moduleForModel,
+  test
+} from 'ember-qunit';
 
 moduleForModel('contact', 'Contact', {
   // Specify the other units that are required for this test.
@@ -8,5 +11,5 @@ moduleForModel('contact', 'Contact', {
 test('it exists', function() {
   var model = this.subject();
   // var store = this.store();
-  ok(model);
+  ok(!!model);
 });

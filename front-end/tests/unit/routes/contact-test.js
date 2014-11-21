@@ -1,4 +1,7 @@
-import { test, moduleFor } from 'ember-qunit';
+import {
+  moduleFor,
+  test
+} from 'ember-qunit';
 
 moduleFor('route:contact', 'ContactRoute', {
   // Specify the other units that are required for this test.
